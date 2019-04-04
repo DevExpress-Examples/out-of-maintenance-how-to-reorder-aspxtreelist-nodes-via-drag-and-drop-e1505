@@ -1,7 +1,7 @@
 <!-- default file list -->
 *Files to look at*:
 
-* [Default.aspx](./CS/ReorderNodes/Default.aspx) (VB: [Default.aspx.vb](./VB/ReorderNodes/Default.aspx.vb))
+* [Default.aspx](./CS/ReorderNodes/Default.aspx) (VB: [Default.aspx](./VB/ReorderNodes/Default.aspx))
 * [Default.aspx.cs](./CS/ReorderNodes/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/ReorderNodes/Default.aspx.vb))
 * [SampleDataItem.cs](./CS/ReorderNodes/SampleDataItem.cs) (VB: [SampleDataItem.vb](./VB/ReorderNodes/SampleDataItem.vb))
 <!-- default file list end -->
