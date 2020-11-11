@@ -1,5 +1,4 @@
-Imports Microsoft.VisualBasic
-Imports System
+﻿Imports System
 
 Public Class SampleDataItem
 	Private m_title As String

@@ -1,4 +1,4 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
+﻿Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ReorderNodes", "ReorderNodes\ReorderNodes.vbproj", "{EEA8BDC5-FF50-4F3D-946C-940BD3ED71B0}"
 	ProjectSection(WebsiteProperties) = preProject

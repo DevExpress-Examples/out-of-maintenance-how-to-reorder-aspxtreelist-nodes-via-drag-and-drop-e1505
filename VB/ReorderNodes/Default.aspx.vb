@@ -1,5 +1,4 @@
-Imports Microsoft.VisualBasic
-Imports System
+﻿Imports System
 Imports System.Data
 Imports System.Configuration
 Imports System.Collections
@@ -15,6 +14,7 @@ Imports System.Collections.Generic
 Namespace ReorderNodes
 	Partial Public Class _Default
 		Inherits System.Web.UI.Page
+
 		Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 
 		End Sub
@@ -31,7 +31,7 @@ Namespace ReorderNodes
 				If Session(key) Is Nothing Then
 					Session(key) = CreateData()
 				End If
-				Return CType(Session(key), List(Of SampleDataItem))
+				Return DirectCast(Session(key), List(Of SampleDataItem))
 			End Get
 		End Property
 
@@ -65,7 +65,7 @@ Namespace ReorderNodes
 
 		' drag-and-drop to reorder nodes
 		Protected Sub ASPxTreeList1_CustomCallback(ByVal sender As Object, ByVal e As DevExpress.Web.ASPxTreeList.TreeListCustomCallbackEventArgs)
-			Dim tl As ASPxTreeList = CType(sender, ASPxTreeList)
+			Dim tl As ASPxTreeList = DirectCast(sender, ASPxTreeList)
 			If e.Argument.StartsWith("reorder:") Then
 				Dim arg() As String = e.Argument.Split(":"c)
 				SwapNodes(tl.FindNodeByKeyValue(arg(1)), tl.FindNodeByKeyValue(arg(2)))
